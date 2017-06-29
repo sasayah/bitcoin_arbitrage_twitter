@@ -1,0 +1,6 @@
+bottle==0.12.13
+future==0.16.0
+oauthlib==2.0.2
+python-twitter==3.3
+requests==2.18.1
+requests-oauthlib==0.8.0
