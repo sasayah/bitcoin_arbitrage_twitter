@@ -32,7 +32,6 @@ def main():
             sellpl = bitcoin[i]['place']
 
     maxdiff = maxp - minp
-    print('maxdiff:{0}, sellplace:{1}, buyplace:{2}!'.format(maxdiff,sellpl,buypl))
 
     api = twitter.Api(consumer_key=os.environ["CONSUMER_KEY"],
                       consumer_secret=os.environ["CONSUMER_SECRET"],
@@ -43,7 +42,7 @@ def main():
 
 
     if maxdiff>100:
-            api.PostUpdate('maxdiff:{0}, sellplace:{1}, buyplace:{2}!'.format(maxdiff,sellpl,buypl))
+            api.PostUpdate('maxdiff:{0}, sellplace:{1} : {2}, buyplace:{3} : {4}'.format(maxdiff,maxp,sellpl,buypl,minp))
 
 
 
