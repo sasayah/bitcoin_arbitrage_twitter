@@ -41,7 +41,7 @@ def main():
 
 
 
-    if maxdiff>100:
+    if maxdiff>4000:
             api.PostUpdate('maxdiff:{0}, sellplace:{1} : {2}, buyplace:{3} : {4}'.format(maxdiff,maxp,sellpl,buypl,minp))
 
 
