@@ -1,6 +1,6 @@
 appnope==0.1.0
 bleach==2.0.0
-bottle==0.12.13
+bottle==0.12.19
 certifi==2017.4.17
 chardet==3.0.4
 cssselect==1.0.1
